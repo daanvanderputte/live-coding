@@ -1,0 +1,12 @@
+p {
+    background-color: red;
+}
+
+.dark {
+    background-color: black;
+    color: coral;
+}
+
+.light {
+    background-color: cyan;
+}
