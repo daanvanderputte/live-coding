@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+section div {
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+}
+
+#blue {
+    background-color: cornflowerblue;
+    height: 7rem ;
+}
+
+
+#purple {
+    background-color: purple;
+    border-style: dashed;
+    border-width: 20px;
+   border-color: white;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+    border-radius: 50%;
+}
