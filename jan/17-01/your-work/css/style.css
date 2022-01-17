@@ -1,5 +1,14 @@
+body {
+    background-color: black;
+    background-image: url(../images/bicep.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 3rem;
+}
+
 h1 {
-    background-color: grey;
+    color: #718871;
+    background-color: black;
     font-family: 'Source Code Pro', monospace;
     font-size: 2rem;
 }
