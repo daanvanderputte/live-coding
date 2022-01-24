@@ -67,7 +67,7 @@ select:focus {
   bottom: 0;
   /* border: 2px orange dashed; */
   cursor: pointer;
-  background-color: #ccc;
+  background-color: red;
   border-radius: 5rem;
   transition: 0.4s;
 }
@@ -79,7 +79,7 @@ select:focus {
   bottom: 0.35rem;
   width: 1rem;
   height: 1rem;
-  background-color: white;
+  background-color: red;
 }
 .switch input:checked + .slider {
   background-color: orange;
@@ -87,12 +87,4 @@ select:focus {
 .switch input:checked + .slider::before {
   transform: translateX(2.5rem);
   /* transition: 3s; */
-}
-
-/* font-awesome */
-i {
-  font-size: 3rem;
-  color: var(--orange-is-my-fav);
-  box-shadow: 10px -10px 40px gray;
-  border-radius: 50%;
 }
