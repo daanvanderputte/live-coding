@@ -7,3 +7,20 @@ i{
 body {
   font-family: "Neonderthaw", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
+
+p {
+  font-size: 300%;
+  color: red;
+}
+
+form {
+  margin: 50% auto;
+  width: 50%;
+  height: 50%;
+}
+
+fieldset input, select{
+  margin: 2vh auto;
+  display: block;
+}
+
