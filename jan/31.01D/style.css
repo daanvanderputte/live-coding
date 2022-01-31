@@ -1,0 +1,20 @@
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.griditem {
+    border: black solid 1px;
+    background-color: coral;
+}
+
+.container {
+    display: grid;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
