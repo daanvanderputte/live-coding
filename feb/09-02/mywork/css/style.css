@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --company-styled-font: 
+}
+body {
+    font-family: ;
+}
+nav{
+    width: 20vw;
+    height: 50vh;
+    background-color: coral;
+    padding: 2vh 2vw;
+    transition: .4s ease-in;
+    animation-name: dropdown-menu-move-down;
+    animation-duration: 0.5s;
+}
+@keyframes dropdown-menu-move-down {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 30vh;
+    }
+}
+
+/* animation-name: dropdown-menu-move-up; */
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+nav ul li {
+    width: 100%;
+    border-radius: 2px;
+}
+nav ul li a { 
+    color: lightgrey;
+    text-decoration: none;
+}
+ul li:hover {
+    background-color: red;
+    color: black;
+}
