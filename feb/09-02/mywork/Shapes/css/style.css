@@ -1,29 +1,10 @@
-/* .shapes {
-    border: black solid 2px;
-    width: 3rem;
-    height: 9rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.shapes div {
-    border: black solid 1px;
-    border-radius: 2px;
-    width: 2.5rem;
-    height: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-} */
 body {
     display: flex;
     justify-content: space-between;
     width: 9vw;
 }
 /* Shapes */
-.burger-one, .burger-two, .burger-three{
+.hamburger{
     width: 3rem;
     height: 3rem;
     display: flex;
@@ -31,7 +12,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
-.burger-one div, .burger-two div, .burger-three div {
+.hamburger div {
     border: black solid 1px;
     background-color: black;
     border-radius: 2px;
@@ -70,35 +51,17 @@ body {
     position: relative;
     left: 1rem;
 }
-/* Colors */
-.burger-four, .burger-five, .burger-six{
-    width: 3rem;
-    height: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
 .burger-four div {
     border: red solid 1px;
     background-color: red;
-    border-radius: 2px;
-    width: 2.5rem;
-    height: 0.2rem;
 }
 .burger-five div {
     border: yellow solid 1px;
     background-color: yellow;
-    border-radius: 2px;
-    width: 2.5rem;
-    height: 0.2rem;
 }
 .burger-six div {
     border: blue solid 1px;
     background-color: blue;
-    border-radius: 2px;
-    width: 2.5rem;
-    height: 0.2rem;
 }
 .burger-four:hover > :nth-child(1) {
     transform: rotate(0deg);
@@ -148,30 +111,21 @@ body {
     bottom: 0.7rem;
 }
 /* Movements */
-.burger-seven, .burger-eight, .burger-nine{
-    width: 3rem;
-    height: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.burger-seven div, .burger-eight div, .burger-nine div {
-    border: black solid 1px;
-    background-color: black;
-    border-radius: 2px;
-    width: 2.5rem;
-    height: 0.2rem;
-}
 .burger-seven:hover {
-    transform: rotate(0.5turn);
+
+}
+.burger-eight:hover {
+
+}
+.burger-nine:hover {
+
 }
 /* Emojis */
 .emojis {
     font-size: 2rem;
 }
 .emoji-one:hover {
-    transform: matrix(1, 2, 3);
+
 }
 .emoji-two {
     margin-top: -1.2vh;
