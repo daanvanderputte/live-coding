@@ -1,0 +1,38 @@
+@media only screen and (min-width: 900px) {
+
+    body {
+        background-color: black;
+    }
+
+    footer {
+        border: black solid 2px;
+    }
+
+    
+    /* body {
+      grid-template-rows: 15vh repeat(4, 65vh);
+    }
+    header nav .menu {
+      width: 10vw;
+      justify-content: flex-end;
+      border: black solid 2px;
+    }
+    main section article {
+      border: solid black 2px;
+    }
+  
+    main section .main-landing-part {
+      display: flex;
+      flex-direction: row;
+  
+    }
+    .main-landing-image img {
+      border: 2px solid black;
+      width: 50%;
+      height: 50%;
+    }
+    .main-landing-text h2{
+      border: black solid 2x;
+    }
+   */
+}
